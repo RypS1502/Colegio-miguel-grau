@@ -39,13 +39,13 @@ function entrasdosente(){
 
     for (let i = 0; i < array_correo_dos.length, array_password_dos.length; i++) {
         if(array_correo_dos[0] == userdocente && array_password_dos[0] == contraseñadocente){
-            window.location.href = 'intranet_docente.html'
+            window.location.href = 'Intranet_IngresoDocente_Bienvenido.html'
         }
         else if(array_correo_dos[1] == userdocente && array_password_dos[1] == contraseñadocente){
-            window.location.href = 'intranet_docente.html'
+            window.location.href = 'Intranet_IngresoDocente_Bienvenido.html'
         }
         else if(array_correo_dos[2] == userdocente && array_password_dos[2] == contraseñadocente){
-            window.location.href = 'intranet_docente.html'
+            window.location.href = 'Intranet_IngresoDocente_Bienvenido.html'
         } else{
             alert("usuario o contraseña inválido(s)");
         }

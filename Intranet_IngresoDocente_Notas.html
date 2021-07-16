@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet</title>
+    <link type="text/css" rel="stylesheet" href="css/intranet_IngresoDocente_Notas.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <img src="imagenes/snoopy.png">
+            <div id="Sup"><h1>Intranet Snpy</h1></div>
+        </header>
+        <section>
+            <span class="textBienvenido">Bienvenido(a) Profesor(a)</span> <br>
+            <article>
+                <div id="opciones">
+                    <a href="Intranet_IngresoDocente_Bienvenido.html"><div id="bienvenido" class="option">Bienvenido</div></a>
+                    <a href="Intranet_IngresoDocente_Notas.html"><div id="notasIngreso" class="option">Ingresar Notas</div></a>
+                </div>
+                <div id="ingresoNotas" class="textTam">
+                    <div id="tituloNota">Matemáticas</div>
+                    <div id="nota">Notas</div> <br> <br>
+                    <div class="materiaName">Identifica la estructura de una ecuación</div>
+                    <input type="text" class="notaValor" id="nota1"> <br>
+                    <div class="materiaName">Resuelve problemas aplicando ecuaciones</div>
+                    <input type="text" class="notaValor" id="nota2"> <br>
+                    <div class="materiaName">Aplica estrategias para resolver problemas</div>
+                    <input type="text" class="notaValor" id="nota3"> <br>
+                    <div class="materiaName">Reconoce la importancia de las ecuaciones</div>
+                    <input type="text" class="notaValor" id="nota4"> <br> <br>
+                    <button id="buttonPromedio">Promediar</button>
+
+                    <div id="alumno">
+                        <div id="alumnoSelec">Alumno</div>
+                        <select name="alumnos" id="alumnoTurn">
+                            <option value="josue">Josue R. Paredes</option>
+                            <option value="ramon">Ramón P. Ángeles</option>
+                            <option value="juliana">Juliana S. Torres</option>
+                            <option value="anai">Anai C. Carmen</option>
+                            <option value="renzo">Renzo J. Callo</option>
+                        </select> <br> <br>
+                        <div id="estadoAlum">
+                            Estado: <span id="est"></span> <br>
+                            Nota Promedio: <span id="prom"></span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>   
+    </div> 
+    <script type="text/javascript" src="js/notas.js"></script>
+</body>
+</html>
