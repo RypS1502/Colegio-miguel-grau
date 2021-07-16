@@ -1,0 +1,32 @@
+@font-face{
+    font-family: primera letra;
+    src: url(letras/AbrilFatface-Regular.ttf);
+}
+@font-face {
+    font-family: segunda letra;
+    src: url(letras/ArchitectsDaughter-Regular.ttf);
+}
+@font-face {
+    font-family: tercera letra;
+    src: url(letras/OtomanopeeOne-Regular.ttf);
+}
+@font-face {
+    font-family: cuarta letra;
+    src: url(letras/PermanentMarker-Regular.ttf);
+}
+@font-face {
+    font-family: quinta letra;
+    src: url(letras/SecularOne-Regular.ttf);
+}
+@font-face {
+    font-family: sexta letra;
+    src: url(letras/Teko-Bold.ttf);
+}
+@font-face {
+    font-family: setima letra;
+    src: url(letras/Teko-Light.ttf);
+}
+@font-face {
+    font-family: octava letra;
+    src: url(letras/ZenTokyoZoo-Regular.ttf);
+}

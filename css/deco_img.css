@@ -1,0 +1,45 @@
+
+.img_fondo{
+    width: 350px;
+    position: absolute;
+    bottom: 2%;
+    left: 65%;
+}
+
+.img_fondo img{
+    width: 100%;
+}
+
+.img_persona{
+    width: 600px;
+    position: absolute;
+    bottom: 15%;
+    left: 52%;
+
+}
+
+.img_persona img{
+    width: 100%;
+}
+
+
+.minis{
+    position: absolute;
+    top: 90%;
+    width: 150px;
+}
+
+.minis img{
+    width: 100%;
+}
+
+.reg{
+    width: 70px;
+    position: absolute;
+    left: 11%;
+    top: 90%;
+}
+
+.reg img{
+    width: 100%;
+}

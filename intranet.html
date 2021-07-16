@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="imagenes/imagen logo.jpeg">
+    <link rel="stylesheet" href="css/intranet_estilos.css">
+    <title>Intranet</title>
+</head>
+<body>
+    <header class="navegador">
+        <div class="logo"><img src="imagenes/logo I.E.png" alt="logosebastianI.E."></div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" id="inicio">Inicio</a></li>
+                <li><a href="talleres.html" id="taller">Talleres</a></li>
+                <li><a href="intranet.html" id="registro">Intranet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                
+                <div class="caja__trasera-login">
+                    <h3>Alumno</h3>
+                    <p>Si eres un estudiante ingresa aqui</p>
+                    <button id="btn__iniciar-sesion">Ingresar</button> 
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>Docente</h3>
+                    <p>Si eres un estudiante ingresa aqui</p>
+                    <button id="btn__registrarse">Ingresar</button>
+                </div> 
+               
+            </div>
+            <div class="contenedor__login-register">
+                <form action="" class="formulario__login">
+                    <h2>Iniciar Sesion Alumno</h2>
+                    <input type="text" placeholder="Correo Electronico" id="usuarioalum">
+                    <input type="password" placeholder="Contraseña" id="contraseñaalum">
+                    <button  type="button" id="entraralum">Entrar</button>
+                </form>
+
+                <form action="" class="formulario__register">
+                    <h2>Iniciar Sesion Docente</h2>
+                    <input type="text" placeholder="Correo Electronico" id="usuariodos">
+                    <input type="password" placeholder="Contraseña" id="contraseñados">
+                    <button  type="button" id="entrardos">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script_intranet__login.js"></script>
+</body>
+</html>

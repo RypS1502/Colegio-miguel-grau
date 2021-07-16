@@ -1,0 +1,58 @@
+@import url(bienvenida.css);
+@import url(deco_img.css);
+@import url(fuentes.css);
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: rgba(197, 197, 197, 0.664);
+}
+.navegador{
+    width: 100%;
+    display: flex;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    align-items: center;
+    position: relative;
+    left: 45%;
+}
+
+.logo img{
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    color: black;
+    font-size: 30px;
+    font-family: setima letra;
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+    color: #FF6600;
+}
+
+
+
+
